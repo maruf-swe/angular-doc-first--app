@@ -19,7 +19,7 @@ input[type="text"] {
   button {
     padding: 12px;
     border: solid 1px var(--primary-color);
-    background: blueviolet; /* Set the background color here */
+    background: blue; /* Set the background color here */
     color: white;
     border-radius: 8px;
   }
