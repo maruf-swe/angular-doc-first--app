@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
-import { Housinglocation } from '../housinglocation';
+import { HousingLocation } from '../housinglocation';
 
 @Component({
   selector: 'app-home',
@@ -15,18 +15,18 @@ import { Housinglocation } from '../housinglocation';
     </form>
   </section>
   <section class="results">
-    <app-housing-location [housingLocation]="housingLocation"]></app-housing-location>
-                          <!-- [attribute] = "value"  this is a property binding-->     
+    <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
   </section>
+
 
 `,
 
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
+  readonly baseUrl = 'https://static01.nyt.com/images/2019/09/29/realestate/29selling-NJ/oakImage-1568402320902-jumbo.jpg?quality=75&auto=webp';
 
-  housingLocation: Housinglocation = {
+  housingLocation: HousingLocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
