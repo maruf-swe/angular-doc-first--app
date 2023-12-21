@@ -1,5 +1,5 @@
 .listing-photo {
-    height: 600px;
+    height: 700px;
     width: 50%;
     object-fit: cover;
     border-radius: 30px;
@@ -7,7 +7,7 @@
   }
   
   .listing-heading {
-    font-size: 48pt;
+    font-size: 40pt;
     font-weight: bold;
     margin-bottom: 15px;
   }
@@ -23,7 +23,7 @@
   
   .listing-features > .section-heading {
     color: var(--secondary-color);
-    font-size: 24pt;
+    font-size: 25pt;
     margin-bottom: 15px;
   }
   
