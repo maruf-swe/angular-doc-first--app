@@ -4,12 +4,11 @@ import { ActivatedRoute } from '@angular/router';
 import { HousingService } from '../housing.service';
 import { HousingLocation } from '../housinglocation';
 import { RouterLink } from '@angular/router';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterOutlet],
+  imports: [CommonModule, RouterLink],
   template: `
     <article>
       <img class="listing-photo" [src]="housingLocation?.photo" 
