@@ -112,6 +112,16 @@ export class HousingService {
       availableUnits: 6,
       wifi: true,
       laundry: true
+    },
+    {
+      id: 9,
+      name: 'Capital Safe Towns',
+      city: 'Dhaka',
+      state: 'OR',
+      photo: `${this.baseUrl}/webaliser-_TPTXZd9mOo-unsplash.jpg`,
+      availableUnits: 6,
+      wifi: true,
+      laundry: true
     }
   ];
 
